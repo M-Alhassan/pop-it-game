@@ -1,13 +1,6 @@
-
-
-
-
-
-
-
 :root{
-    --in: inset 25px 25px 60px rgba(0, 0, 0, .6);
-    --out: inset -25px -25px 40px rgba(0, 0, 0, .5);
+    --in: inset 20px 20px 25px rgba(0, 0, 0, .7);
+    --out: inset -20px -20px 25px rgba(0, 0, 0, .7);
     --first-color: blue;
     --second-color: greenyellow;
     --third-color: orange;
@@ -15,12 +8,19 @@
     --fifth-color: red;
     --sixth-color: purple;
 }
-
+body{
+    font-family: 'Fredoka One', cursive;
+    background-color: aqua;
+}
+h1{
+    font-size: 64px;
+}
 .main_display{
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 
 
@@ -35,39 +35,65 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     width: fit-content;
+    padding: 5px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
 }
 .second {
     background-color: var(--second-color);
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     width: fit-content;
+    border: 2px;
+    border-style: solid;
+    border-color: black; 
+    padding: 5px;
 }
 .third{
     background-color: var(--third-color);
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     width: fit-content;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+
 }
 .fourth{
     background-color: var(--fourth-color);
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     width: fit-content;
+    padding: 5px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
 }
 .fifth{
     background-color: var(--fifth-color);
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;    
+    padding: 5px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
     width: fit-content;
 }
 .sixth{
@@ -75,19 +101,26 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     width: fit-content;
+    border-style: solid;
+    border: 2px;
+    border-color: black; 
+    padding: 5px;
 }
 .color_1{
     background-color: var(--first-color);
     border-radius: 200px;
     height: 100px;
     width: 100px;
+    margin: 5px;;
 }
 .color_2{
     background-color: var(--second-color);
     border-radius: 200px;
     height: 100px;
+    margin: 5px;;
     width: 100px;
 }
 
@@ -95,6 +128,7 @@ align-items: center;
     background-color: var(--third-color);
     border-radius: 200px;
     height: 100px;
+    margin: 5px;;
     width: 100px;
 }
 
@@ -103,6 +137,7 @@ align-items: center;
     background-color: var(--fourth-color);
     border-radius: 200px;
     height: 100px;
+    margin: 5px;;
     width: 100px;
 }
 
@@ -110,6 +145,7 @@ align-items: center;
     background-color: var(--fifth-color);
     border-radius: 200px;
     height: 100px;
+    margin: 5px;;
     width: 100px;
 }
 
@@ -117,6 +153,7 @@ align-items: center;
     background-color: var(--sixth-color);
     border-radius: 200px;
     height: 100px;
+    margin: 5px;;
     width: 100px;
 }
 
