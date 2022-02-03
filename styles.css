@@ -16,7 +16,7 @@ h1{
     font-size: 64px;
 }
 .main_display{
-    height: 110vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
