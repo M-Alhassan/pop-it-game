@@ -3,7 +3,7 @@
 A game that simulates a pop-it toy and a fidget spinner.
 
 <img src="./pop-it-img.png" alt="pop it" width="20%"/>
-<img src="./spinner-img.png" alt="spinner" width="22.75%"/>
+<img src="./spinner-img.png" alt="spinner" width="20%"/>
 
 ## ⚙️ Technologies
 
