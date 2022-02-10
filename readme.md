@@ -13,13 +13,13 @@ A game that simulates a pop-it toy and a fidget spinner.
 
 ## 🔧 Tools
 
-Used [@PixelsCommander](https://github.com/PixelsCommander/)'s [Propeller.js](https://github.com/PixelsCommander/Propeller/) to make the fidget spinner spin.
+Used [@PixelsCommander](https://github.com/PixelsCommander/)'s [Propeller.js](https://github.com/PixelsCommander/Propeller/) for the fidget spinner's roatation.
 
 <br>
 
 ## Note:
 
-The website is incomplete, it still needs to be responsive.
+The website is incomplete, responsiveness will be added.
 
 <br>
 
